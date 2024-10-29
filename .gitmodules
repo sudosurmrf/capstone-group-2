@@ -1,0 +1,3 @@
+[submodule "capstone-frontend"]
+	path = frontend
+	url = git@github.com:fs-vwade/capstone-frontend.git
