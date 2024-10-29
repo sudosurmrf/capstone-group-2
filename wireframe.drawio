@@ -1,17 +1,32 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" version="24.8.3">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Page-1">
-    <mxGraphModel dx="2252" dy="1385" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2734" dy="1681" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="6L5rg74JNegmzjzEnjp9-8" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="130" y="120" width="710" height="580" as="geometry" />
+        <mxCell id="6L5rg74JNegmzjzEnjp9-17" value="Project Page&lt;div&gt;path: &quot;/projects/:id&quot;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1680" y="120" width="720" height="580" as="geometry" />
         </mxCell>
-        <mxCell id="6L5rg74JNegmzjzEnjp9-1" value="Profile Page&lt;br&gt;path: &quot;somesubdomain.herokuapp.com/info&quot;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="6L5rg74JNegmzjzEnjp9-8">
-          <mxGeometry width="710" height="580" as="geometry" />
+        <mxCell id="6L5rg74JNegmzjzEnjp9-18" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1560" y="120" width="120" height="580" as="geometry" />
         </mxCell>
-        <mxCell id="6L5rg74JNegmzjzEnjp9-7" value="" style="group" vertex="1" connectable="0" parent="6L5rg74JNegmzjzEnjp9-8">
+        <mxCell id="6L5rg74JNegmzjzEnjp9-19" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="6L5rg74JNegmzjzEnjp9-18">
           <mxGeometry width="120" height="580" as="geometry" />
+        </mxCell>
+        <mxCell id="6L5rg74JNegmzjzEnjp9-20" value="" style="image;html=1;image=img/lib/atlassian/Atlassian_Logo.svg;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="6L5rg74JNegmzjzEnjp9-18">
+          <mxGeometry x="27" y="10" width="66" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="6L5rg74JNegmzjzEnjp9-21" value="Profile" style="html=1;whiteSpace=wrap;strokeColor=none;fillColor=#0079D6;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;align=center;fontSize=12;outlineConnect=0;spacingTop=-6;fontColor=#FFFFFF;sketch=0;shape=mxgraph.sitemap.profile;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="6L5rg74JNegmzjzEnjp9-18">
+          <mxGeometry y="90" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="6L5rg74JNegmzjzEnjp9-22" value="Projects" style="html=1;whiteSpace=wrap;strokeColor=none;fillColor=#0079D6;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;align=center;fontSize=12;outlineConnect=0;spacingTop=-6;fontColor=#FFFFFF;sketch=0;shape=mxgraph.sitemap.profile;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="6L5rg74JNegmzjzEnjp9-18">
+          <mxGeometry y="170" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="6L5rg74JNegmzjzEnjp9-1" value="Profile Page&lt;br&gt;path: &quot;somesubdomain.herokuapp.com/info&quot;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="122" width="600" height="580" as="geometry" />
+        </mxCell>
+        <mxCell id="6L5rg74JNegmzjzEnjp9-7" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="40" y="122" width="120" height="580" as="geometry" />
         </mxCell>
         <mxCell id="6L5rg74JNegmzjzEnjp9-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="6L5rg74JNegmzjzEnjp9-7">
           <mxGeometry width="120" height="580" as="geometry" />
@@ -25,14 +40,11 @@
         <mxCell id="6L5rg74JNegmzjzEnjp9-6" value="Projects" style="html=1;whiteSpace=wrap;strokeColor=none;fillColor=#0079D6;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;align=center;fontSize=12;outlineConnect=0;spacingTop=-6;fontColor=#FFFFFF;sketch=0;shape=mxgraph.sitemap.profile;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="6L5rg74JNegmzjzEnjp9-7">
           <mxGeometry y="170" width="120" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="6L5rg74JNegmzjzEnjp9-9" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="880" y="120" width="710" height="580" as="geometry" />
+        <mxCell id="6L5rg74JNegmzjzEnjp9-10" value="Projects Page&lt;div&gt;path: &quot;/projects&quot;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="122" width="600" height="580" as="geometry" />
         </mxCell>
-        <mxCell id="6L5rg74JNegmzjzEnjp9-10" value="Projects Page&lt;div&gt;path: &quot;/projecs&quot;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="6L5rg74JNegmzjzEnjp9-9">
-          <mxGeometry width="710" height="580" as="geometry" />
-        </mxCell>
-        <mxCell id="6L5rg74JNegmzjzEnjp9-11" value="" style="group" vertex="1" connectable="0" parent="6L5rg74JNegmzjzEnjp9-9">
-          <mxGeometry width="120" height="580" as="geometry" />
+        <mxCell id="6L5rg74JNegmzjzEnjp9-11" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="800" y="122" width="120" height="580" as="geometry" />
         </mxCell>
         <mxCell id="6L5rg74JNegmzjzEnjp9-12" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="6L5rg74JNegmzjzEnjp9-11">
           <mxGeometry width="120" height="580" as="geometry" />
