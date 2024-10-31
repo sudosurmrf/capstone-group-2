@@ -1,6 +1,8 @@
 # Intra 75
 
-Welcome to [**Intra 75**]()! The goal of this project is to create a fun way for students to learn by doing. Students will complete projects on the intranet and gain experience to level up your skills! Your skill level on the Intra is a fun way to estimate your overall experience and how much you can do!
+Welcome to [**Intra 75**]()! The goal of this project is to create a fun way for students to learn by doing.
+
+Students will complete projects on the intranet and gain experience to level up your skills! Your skill level on the Intra is a fun way to estimate your overall experience and how much you can do!
 
 Be sure to give it your all!
 
