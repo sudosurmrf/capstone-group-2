@@ -48,6 +48,9 @@ The 🔒 lock icon next to a route indicates that it must be protected via authe
 
 - 🔒 `GET /projects` returns a list of all projects
 - 🔒 `GET /projects/:id` returns a specific project
+- 🔒 `POST /projects/:id` enrolls the student in the selected course
+- 🔒 `POST /submissions` 
+- 🔒 `DELETE /projects/:id` disenrolls the student for the selected course
 
 ### Assignments
 
