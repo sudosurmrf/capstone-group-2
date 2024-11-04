@@ -49,9 +49,11 @@ The 🔒 lock icon next to a route indicates that it must be protected via authe
 - 🔒 `GET /projects` returns a list of all projects
 - 🔒 `GET /projects/:id` returns a specific project
 - 🔒 `POST /projects/:id` enrolls the student in the selected course
-- 🔒 `POST /submissions` 
 - 🔒 `DELETE /projects/:id` disenrolls the student for the selected course
+- 🔒 `PUT /submissions` updates an assignment with a given grade
+  - the body of the request should contain `grade`, `studentId`, and `projectId`
+  - an appropriate error will be returned if the form is invalid
 
 ### Assignments
 
-- 🔒 `GET /log` returns a list of all projects currently assigned to the Studen
+- 🔒 `GET /log` returns a list of all projects currently assigned to the Student
