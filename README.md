@@ -42,12 +42,35 @@ The 🔒 lock icon next to a route indicates that it must be protected via authe
   - return the user's `full name`, `experience`, and `level`
   - if the user does not exist, return 404 Not Found
 - 🔒 `GET /info` returns all information related to the logged in user
+
   - returns a `JSON` object containing the user's username, email, experience, and current level
+
+  ```json
+  {}
+  ```
 
 ### Projects
 
 - 🔒 `GET /projects` returns a list of all projects
 - 🔒 `GET /projects/:id` returns a specific project
+
+```json
+{
+	"name": "name",
+	"grade": "0 or greater value of last attempt",
+	"enrolled": "boolean of true or false",
+	"project": {
+		"exp": "Integer value of EXP award",
+		"team": "Individual or Group",
+		"description": "An introductory paragraph to the project, or Lorem Ipsum",
+		"links": [
+			"an array of resource URLs for the project",
+			"this may include PDF and TXT files"
+		]
+	}
+}
+```
+
 - 🔒 `POST /projects/:id` enrolls the student in the selected course
 - 🔒 `DELETE /projects/:id` disenrolls the student for the selected course
 - 🔒 `PUT /submissions` updates an assignment with a given grade
