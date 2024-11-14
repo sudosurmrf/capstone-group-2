@@ -1,0 +1,15 @@
+{
+	"name": "Capstone - Intra 75",
+	"version": "1.0.0",
+	"description": "backend segment of capstone MVP",
+	"author": "Victor Wade, Joe Wallace, Seung-Woo Seo, Aymaan Wastani",
+	"license": "ISC",
+	"prisma": {
+		"seed": "node prisma/seed.js"
+	},
+	"scripts": {
+		"dev:frontend": "cd frontend && npm run dev",
+		"dev:backend": "cd backend && npm run dev",
+		"dev": "npm run dev:frontend & npm run dev:backend"
+	}
+}
